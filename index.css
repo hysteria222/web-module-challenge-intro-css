@@ -1,0 +1,233 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+* {
+	box-sizing: border-box;
+	display: inline-block;
+	
+}
+
+nav {
+	width: 70%;
+	margin-left: 25%;
+	
+   }
+   
+   
+   button.plan {
+	   background-color: #FF764E;
+	   border: none;
+	   border-radius: 20px 20px 20px 20px;
+	   padding: 20px;
+	   font-family: Roboto Mono;
+	   margin-right: 100px;
+   }
+   
+   button.learn {
+	   background-color: #5ED3EB;
+	   border: none;
+	   border-radius: 20px 20px 20px 20px;
+	   padding: 20px;
+	   font-family: Roboto Mono;
+	   margin-right: 100px;
+   }
+   
+   button.getinvolved {
+	   background-color: #FFCD69;
+	   border: none;
+	   border-radius: 20px 20px 20px 20px;
+	   padding: 20px;
+	   font-family: Roboto Mono;
+   }
+   
+   button.footer-plan {
+	   background-color: #FF764E;
+	   border: none;
+	   border-radius: 20px 20px 20px 20px;
+	   padding: 20px;
+	   font-family: Roboto Mono;
+	   margin-right: 100px;
+   }
+   
+   button.footer-learn {
+	   background-color: #5ED3EB;
+	   border: none;
+	   border-radius: 20px 20px 20px 20px;
+	   padding: 20px;
+	   font-family: Roboto Mono;
+	   margin-right: 100px;
+   }
+   
+   button.footer-getinvolved {
+	   background-color: #FFCD69;
+	   border: none;
+	   border-radius: 20px 20px 20px 20px;
+	   padding: 20px;
+	   font-family: Roboto Mono;
+   }
+   
+   img.header{
+	   border-radius: 100px 100px 100px 100px;
+	   height: 200px;
+	   width: 200px;
+	   float: left; 
+	   margin-top: 5%;
+   }
+
+   img.middle {
+	height: 200px;
+	width: 200px;
+	margin-left: 220px;
+	margin-bottom: 20px;
+   }
+
+   img.footer {
+	width: 100%;
+	height: 25vh;
+   }
+   
+
+   header {
+	   width: 60%;
+	   padding: 20px;
+	   margin: 1% auto;
+   }
+   
+   .header {
+	border: 2px solid red;
+	width: 50vw;
+   }
+   
+   h1 {
+	   font-family: Chelsea Market;
+	   font-size: 2.813rem;
+	   text-align: center;
+	   vertical-align: top;
+	   float: right;
+   }
+   
+
+   .headertext {
+	   width: 100%;
+	   border: 2px solid black;
+   }
+
+   .headertext2 {
+		margin-left: -40px;
+		margin-top: 5px;
+		margin-bottom: 20px;
+		width: 60%;
+		text-align: center;
+   }
+
+   .headerinfo {
+	background-color: #DDB9A3;
+	width: 75%;
+	height: 160px;
+	padding: 5px;
+	margin-left: 200px;
+   }
+
+   p.headertext {
+	   font-family: Chelsea Market;
+	   font-size: 15px;
+	   line-height: 30px;
+	   float: right;
+	   
+	   
+   }
+   
+   p.headertext2 {
+	   font-family: Chelsea Market;
+	   font-size: 15px;
+	   line-height: 30px;
+	   float: right;
+	   
+   } 
+
+   p.moreheadertext {
+	font-family: Roboto mono;
+	font-size: 15px;
+	text-align: center;
+	margin-top: 30px;
+	color: white;
+   }
+   
+   p.info {
+	   font-family: Roboto Mono;
+	   font-size: 15px;
+	   text-align: center;
+	   margin: 0 auto;
+	   width: 50%;
+	   margin-left: 200px;
+   }
+
+   .infotext {
+	margin: 0 auto;
+	width: 70%;
+   }
+
+   .camperinfo {
+	width: 50%;
+	margin: 0 auto;
+	margin-left: 360px;
+   }
+
+   .footerimage {
+	overflow: auto;
+	width: 100%;
+	margin-bottom: 5%;
+   }
+
+   .footer {
+	border: 2px solid black;
+	background-color: #F9E7DC; 
+	width: 100%;
+	height: 50vh;
+   }
