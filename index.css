@@ -285,6 +285,7 @@ table {
 	margin-bottom: 2;
 	background-size: cover;
 	height: 300px;
+	transition-duration: 2s;
    }
 
    .footerimage:hover {
